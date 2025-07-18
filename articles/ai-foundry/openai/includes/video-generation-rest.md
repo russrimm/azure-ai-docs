@@ -83,6 +83,7 @@ You can generate a video with the Sora model by creating a video generation job,
     import requests
     import base64 
     import os
+    import time
     from azure.identity import DefaultAzureCredential
     
     # Set environment variables or edit the corresponding values here.
